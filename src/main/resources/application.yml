@@ -1,0 +1,31 @@
+server:
+  port: 9003
+  error:
+    include-message: always
+
+graphql:
+  servlet:
+    mapping: /graphql
+    enable: true
+    corsEnable: true
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/graphQL?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+logging:
+  level:
+    com.deeeplabs.sgemote: DEBUG
+    org.hibernate: ERROR
+    org.springframework: INFO
