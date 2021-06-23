@@ -40,13 +40,13 @@ public class Car {
     @GraphQLQuery(name = "price")
     private BigDecimal price;
 
-    @Column(name = "delete_flag")
+    @GraphQLQuery(name = "delete_flag")
     private boolean deleteFlag;
 
-    @Column(name = "created_at")
+    @GraphQLQuery(name = "created_at")
     private OffsetDateTime createdAt;
 
-    @Column(name = "updated_at")
+    @GraphQLQuery(name = "updated_at")
     private OffsetDateTime updatedAt;
 
 
