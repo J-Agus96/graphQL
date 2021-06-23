@@ -1,4 +1,4 @@
-package com.deeeplabs.graphQL.dto;
+package com.testing.graphQL.dto;
 
 import lombok.Data;
 

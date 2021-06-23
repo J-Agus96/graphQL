@@ -1,4 +1,4 @@
-package com.deeeplabs.graphQL.domain;
+package com.testing.graphQL.domain;
 
 import io.leangen.graphql.annotations.GraphQLQuery;
 import lombok.Data;

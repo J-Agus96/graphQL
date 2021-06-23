@@ -1,7 +1,7 @@
-package com.deeeplabs.graphQL.service;
+package com.testing.graphQL.service;
 
-import com.deeeplabs.graphQL.domain.Car;
-import com.deeeplabs.graphQL.dto.CarDto;
+import com.testing.graphQL.domain.Car;
+import com.testing.graphQL.dto.CarDto;
 
 import java.util.List;
 import java.util.Optional;

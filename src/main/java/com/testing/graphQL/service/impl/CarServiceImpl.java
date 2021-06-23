@@ -1,9 +1,9 @@
-package com.deeeplabs.graphQL.service.impl;
+package com.testing.graphQL.service.impl;
 
-import com.deeeplabs.graphQL.domain.Car;
-import com.deeeplabs.graphQL.dto.CarDto;
-import com.deeeplabs.graphQL.repository.CarRepository;
-import com.deeeplabs.graphQL.service.CarService;
+import com.testing.graphQL.domain.Car;
+import com.testing.graphQL.dto.CarDto;
+import com.testing.graphQL.repository.CarRepository;
+import com.testing.graphQL.service.CarService;
 import io.leangen.graphql.annotations.*;
 import io.leangen.graphql.spqr.spring.annotations.GraphQLApi;
 import org.springframework.beans.factory.annotation.Autowired;

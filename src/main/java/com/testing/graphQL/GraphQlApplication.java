@@ -1,4 +1,4 @@
-package com.deeeplabs.graphQL;
+package com.testing.graphQL;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
